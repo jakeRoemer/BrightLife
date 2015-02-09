@@ -8,6 +8,7 @@ Under VCS tab at the top of your studio
   -> Checkout from Version Control
     -> Git: URL = https://github.com/jakeRoemer/BrightLife.git
             Parent Directory is the directory you want your project in. Probably under AndroidStudioProjects
+IMPORTANT: Always Pull before Commiting or Pushing. Reduces chance of conflicts. If a conflict arises we should contact each other during the start to reduce heartache.
             
 # Add questions and concerns here:
 
