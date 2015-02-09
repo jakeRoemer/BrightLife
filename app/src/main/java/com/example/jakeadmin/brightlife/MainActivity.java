@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         Button button = (Button) findViewById(R.id.button_id);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Starting off", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Startig off", Toast.LENGTH_LONG).show();
             }
         });
     }
