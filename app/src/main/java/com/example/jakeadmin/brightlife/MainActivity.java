@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ToggleButton;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -14,12 +14,21 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.button_id);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Startig off", Toast.LENGTH_LONG).show();
-            }
-        });
+    }
+
+    public void onButtonClick(View v) {
+        Toast.makeText(MainActivity.this, "Starting Off", Toast.LENGTH_LONG).show();
+    }
+
+    public void onToggleClick(View v) {
+        boolean on = ((ToggleButton) v).isChecked();
+        if(on){
+            //Enable LEDs
+            Toast.makeText(MainActivity.this, "LEDs Enabled", Toast.LENGTH_SHORT).show();
+        } else {
+            //Disable LEDs
+            Toast.makeText(MainActivity.this, "LEDs Disabled", Toast.LENGTH_SHORT).show();
+        }
     }
 
 

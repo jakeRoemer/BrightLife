@@ -16,6 +16,7 @@ IMPORTANT: Always Pull before Commiting or Pushing. Reduces chance of conflicts.
 ##Josh:
 Get git working and test by pulling, making changes and pushing
 Discuss functionallity
+Set up a file describing hardware being used
 
 ##Jake:
 Get basic layout working
