@@ -1,6 +1,6 @@
 # BrightLife
-Application designed for complete control of visual media. Adds user defined specification for volume and distinctness in LEDs. \n
-Idk, if you can think of a better way to word it Josh you should. \n
+Application designed for complete control of visual media. Adds user defined specification for volume and distinctness in LEDs.
+Idk, if you can think of a better way to word it Josh you should.
 Using Android Studio
 
 # Getting project from Git
