@@ -5,5 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="button_id">Begin</string>
     <string name="OnOff_Toggle">LEDs</string>
+    <string name="Brightness_Bar">Brightness</string>
+    <string name="percent_SeekBar">Brightness</string>
 
 </resources>

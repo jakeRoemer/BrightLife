@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 import android.widget.Toast;
 
@@ -31,6 +33,21 @@ public class MainActivity extends Activity {
         }
     }
 
+    public void onProgressChanged(SeekBar v, int progress, boolean isUser) {
+        TextView tv = (TextView)findViewById(R.id.percent);
+        if(progress >= 50) {
+            tv.setText("halfway there");
+            Toast.makeText(MainActivity.this, "Getting Bright Here", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void onStartTrackingTouch(SeekBar seekBar) {
+
+    }
+
+    public void onStopTrackingTouch(SeekBar seekBar) {
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
